@@ -1,0 +1,10 @@
+# take the name, age, house number and street name as input variables then print the relevant sentence as a string 
+print('Please enter your name: ')
+name = input()
+print('Please enter your age: ')
+age = input()
+print('Please enter your house number: ')
+house_number = input()
+print('Please enter your street name: ')
+street_name = input()
+print('This is ' + name + '. He is '+ age + ' years old and lives at house number ' + house_number + ' on ' + street_name + '.')
