@@ -1,5 +1,12 @@
+import sys
+
 print("Please insert your age: ")
-age = int(input())
+age = input()
+try: 
+    age = int(age)
+except ValueError:
+    print("Please enter an integer value")
+    sys.exit(0)
 if age > 100:
     print("Sorry, you're dead.")
 elif age >= 65:
